@@ -2,6 +2,23 @@
 Skrape facebook video url using fbdown.net
 
 ## Basic Usage
+#### Project/build.gradle
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+#### Project/app/build.gradle
+```
+dependencies {
+	implementation 'com.github.charleshugochg:FBClient:0.1.0'
+}
+```
+
+#### MainActivity.java
 ```
 import master.charleshugo.fbclient.FBClient;
 
