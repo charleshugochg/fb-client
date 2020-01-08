@@ -14,7 +14,7 @@ allprojects {
 #### Project/app/build.gradle
 ```
 dependencies {
-	implementation 'com.github.charleshugochg:FBClient:v0.1.0'
+	implementation 'com.github.charleshugochg:FBClient:v1.0.1'
 }
 ```
 
